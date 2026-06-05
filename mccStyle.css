@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333131;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0.25rem 0;
+  background-color: grey;
+}
+.header h1 {
+  text-decoration: none;
+  display: inline-block;
+}
+.header a {
+  flex: 0 1 auto;
+  margin-left: 100px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+a:hover {
+  background-color: #2d302d;
+}
+.main-image {
+  background-image: url("https://media.gettyimages.com/id/1428412216/photo/a-male-chef-pouring-sauce-on-meal.jpg?s=612x612&w=0&k=20&c=8U3mrgWsuB7pB8axtGj89MXRkHDKodEli9F6wKgPT4A=");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.dishes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+.dish-card {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin: 20px;
+  padding: 30px;
+
+  border-radius: 8px;
+  text-align: center;
+  object-fit: cover;
+}
+.dish-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 8px;
+}
+.dish-card h3 {
+    margin: 10px 0 5px 0;
+}
+
+.dish-card p {
+    font-size: 14px;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+}
+.about img {
+     width: 300px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.about p{
+    padding: 50px;
+    text-align: center;
+}
+.mission
+{
+   background-image: url("https://imgs.search.brave.com/JtZPJijIyKnghNabKwKqrVv8pnw_P-nByJH6SivDjDE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE3/MDk1NjY4Mi9waG90/by9yb2xsaW5nLXBp/bi13aXRoLWZsb3Vy/LW9uLWRhcmstYmxh/Y2stYmFraW5nLWJh/Y2tncm91bmQtdG9w/LXZpZXctY29weS1z/cGFjZS1mb3ItdGV4/dC1tZW51LmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1xdkhR/bDI2ZzNsY29DLVEy/V29DNzItX2xkYm5M/dDUxSC1ReGZBT3RS/cl9BPQ");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%; 
+}
+.mission-text{
+   padding: 300px 400px 300px 50px;
+  color: white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.contactus {
+  width: 100%;
+  height: 400px;
+}
